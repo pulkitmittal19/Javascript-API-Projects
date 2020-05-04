@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Info</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-dafault">
+        <div class = 'container'>
+            <div class = 'navbar-header'>
+                <a class="navbar-brand" href="index.html">
+                Movie Info
+                </a>
+            </div>
+        </div>    
+      </nav>
+
+      <div class = 'container'>
+          <div class = 'jumbotron'>
+              <h3 class = 'text-center'>Search For any Movie</h3>
+              <form id = 'searchForm'>
+                  <input type = 'text' class = 'form-control' id = 'searchText' placeholder="Search any Movie">
+              </form>
+          </div>
+      </div>
+
+      <div class = 'container'>
+          <div id ='movies' class = 'rows'>
+          </div>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.5.0.min.js" 
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="js/script.js"></script>
+   
+</body>
+</html>
