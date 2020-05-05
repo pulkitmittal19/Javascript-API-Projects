@@ -1,5 +1,11 @@
 $(document).ready(() => {
- // $('#searchForm').on('submit', (e) => {
+
+    $('#searchForm').on('submit', (e) => {
+    let searchText = $('#searchText').val();
+    getMovies(searchText);
+    e.preventDefault();
+  });
+
   $('#submit').on('click', (e) => {  
     let searchText = $('#searchText').val();
     getMovies(searchText);
