@@ -1,6 +1,5 @@
-## Javascript API PRojects-
-
-# 1) IMDB clone Movie-Info App
+# Javascript-API-Projects
 
 
-
+## 1) Movie-Info-App (Imdb clone)
+ 
