@@ -1,0 +1,42 @@
+#movies img, #movie img{
+  width: 100%;
+}
+
+@media(min-width:960px){
+  #movies .col-md-3 .well{
+    height: 390px;
+  }
+
+  #movies .col-md-3 img{
+    height:240px;
+  }
+}
+ 
+body{
+  background-image: url('../img/background.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}  
+
+#main-heading{
+  font-size: 60px;
+  margin-top: 30px;
+  margin-left: 40px;
+
+}
+
+#submit{
+  margin-top: 5px;
+  width: 75px;
+  font-size: 20px;
+  padding: 4px;  
+}
+
+.jumbotron{
+  width:1070px;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+
